@@ -1,11 +1,15 @@
 # DECODER2TO4
+
 # Aim:
+
 To simulate and synthesis 2 to 4 Decoder using vivado.
 
 # Apparatus Required:
+
 vivado software.
 
 # Procedure:
+
 STEP:1 Start the vivado software, Select and Name the New project.
 
 STEP:2 Select the device family, device, package and speed. 
@@ -31,9 +35,11 @@ STEP:12 Load the Bit file into the SPARTAN 6 FPGA
 STEP:11 On the board, by giving required input, the LEDs starts to glow light, indicating the output.
 
 # Truth Table and Circuit Diagram
+
 ![image](https://github.com/RESMIRNAIR/DECODER2TO4/assets/154305926/e565d523-f8b2-4e01-8888-0eed4d07ec24)
 
 # Program
+
 module decoder(a,b,d);
 
 input a,b;    
@@ -51,8 +57,10 @@ and g4(d[3],a,b);
 endmodule
 
 # Output
+
 ![image](https://github.com/Shaiksushma123/DECODER2TO4/assets/159005642/a64f27d5-2908-4996-ba13-8984995b5d1d)
 
 
 # Result:
+
 Thus the verilog program for 2 to 4 Decoder has been simulated and verified successfully using logic truth table.
